@@ -1,22 +1,22 @@
 {
-    "Source": "NicholeMattera",
-    "Name": "Kosmos Reborn Assets",
-    "Org": "NicholeMattera",
-    "Repo": "Kosmos-Reborn-Assets",
-    "AssetPattern": "kosmos_reborn_assets\\.zip",
-    "Instructions": [
-        {
-            "Action": "extract",
-            "Source": "./kosmos_reborn_assets.zip"
-        },
-        {
-            "Action": "delete",
-            "Source": "./kosmos_reborn_assets.zip"
-        },
-        {
-            "Action": "copy",
-            "Source": "./",
-            "Destination": "./"
-        }
-    ]
+  "Source": "GitHub",
+  "Name": "Kosmos Reborn Assets",
+  "Org": "NicholeMattera",
+  "Repo": "Kosmos-Reborn-Assets",
+  "AssetPattern": "kosmos_reborn_assets\\.zip",
+  "Instructions": [
+    {
+      "Action": "extract",
+      "Source": "./kosmos_reborn_assets.zip"
+    },
+    {
+      "Action": "delete",
+      "Source": "./kosmos_reborn_assets.zip"
+    },
+    {
+      "Action": "copy",
+      "Source": "./",
+      "Destination": "./"
+    }
+  ]
 }
